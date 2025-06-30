@@ -81,19 +81,15 @@ e-commerce/
    npm install
    ```
 
-3. **Configure Environment**
-   - Create a `.env` file at root with API endpoints and MongoDB URI:
-     ```ini
-     VITE_API_BASE_URL=https://api.example.com
-     MONGO_URI=mongodb://localhost:27017/ecommerce
+
      ```
 
-4. **Run in Development**
+3. **Run in Development**
    ```bash
    npm run dev
    ```
 
-5. **Build for Production**
+4. **Build for Production**
    ```bash
    npm run build
    npm run serve
